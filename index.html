@@ -5,39 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RedStore | Ecommerce Website Design Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
-    <div class="container">
-        <div class="navbar">
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
 
-            <div class="logo">
-                <img src="images/logo.png" alt="logo" width="125px">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo" width="125px">
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+
+                <img src="images/cart.png" alt="cart logo" width="30px" height="30px">
             </div>
 
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Account</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div class="row">
-            <div class="col-2">
-                <h1>Give Your Workout <br> A New Style </h1>
-                <p>Sucess isn't always about greatness. It's about consistency.
-                     Consistent<br>hard work gains success. Greatness will come</p>
-                <a href="" class="btn">Explore Now &#10147;</a>
-            </div>
-            <div class="col-2">
-                <img src="images/image1.png" alt="Banner">
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout <br> A New Style </h1>
+                    <p>Sucess isn't always about greatness. It's about consistency.
+                        Consistent<br>hard work gains success. Greatness will come</p>
+                    <a href="" class="btn">Explore Now &#10147;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png" alt="Banner">
+                </div>
             </div>
         </div>
     </div>
+    
+<!---------------- featured categories ---------------->
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/category-1.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/category-2.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/category-3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
 
+<!---------------- featured products ---------------->
+
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-1.jpg">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$60.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-2.jpg">
+                    <h4>Sport Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$65.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-3.jpg">
+                    <h4>Jeans For Men</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p><strong>$50.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-4.jpg">
+                    <h4>Blue T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$52.00</strong></p>
+                </div>
+            </div>
+        </div>
+            
 </body>
 </html>
