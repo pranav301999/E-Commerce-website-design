@@ -118,6 +118,7 @@ body{
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
+    transition: transform 0.5s;
 }
 
 .col-4 img{
@@ -165,3 +166,37 @@ h4{
     color: #ff523b;
 }
 
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+/* ----------offer-------- */
+.offer{
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col-2 .offer-img{
+    padding: 50px;
+}
+
+small{
+    color: #555;
+}
+
+/* -------------testimonial--------------- */
+.testimonial{
+    padding-top: 100px;
+}
+
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.testimonial .col-3 img{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
